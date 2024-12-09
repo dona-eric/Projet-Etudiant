@@ -1,5 +1,5 @@
 
-            from sklearn.base import BaseEstimator, TransformerMixin
+from sklearn.base import BaseEstimator, TransformerMixin
 from datetime import datetime
 
 class HeureCoursTransformer(BaseEstimator, TransformerMixin):

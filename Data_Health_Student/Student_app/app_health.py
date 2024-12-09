@@ -36,7 +36,7 @@ def risque_etudiant(data: dict):
         else:
             return {"niveau_risque": "Low", "message": "Le niveau de risque de l'étudiant est faible."}
     except Exception as e:
-        return HTTPException(status_code=500, detail= {str(e)})
+        return HTTPException(status_code=500, detail={str(e)})
     
         
         
